@@ -413,91 +413,99 @@
     .stat-strip{ gap:24px; }
     .nav-inner{ padding:14px 20px; }
   }
-#case-studies .btn{padding:13px 24px;font:500 .8rem 'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--ink);display:inline-block;cursor:pointer;background:transparent;color:var(--ink)}
-#case-studies .btn-primary{background:var(--ink);color:var(--cream)}
-#case-studies .btn-primary:hover{background:var(--green);border-color:var(--green)}
-#case-studies .btn:not(.btn-primary):hover{background:var(--ink);color:var(--cream)}
-#case-studies .note{margin-top:26px;font:400 .78rem 'IBM Plex Mono',monospace;color:var(--ink-soft);border-left:2px solid var(--brass);padding-left:12px;max-width:70ch}
-#case-studies h2{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.15;margin-bottom:14px}
-#case-studies .cs-index{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
-#case-studies .cs-card{background:var(--cream);border:1.5px solid var(--ink);padding:28px;display:flex;flex-direction:column;gap:12px;transition:transform .2s,box-shadow .2s}
-#case-studies .cs-card:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--ink)}
-#case-studies .cs-card .no{font:600 .72rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.14em}
-#case-studies .cs-card h3{font-family:'Fraunces',serif;font-size:1.45rem;line-height:1.2}
-#case-studies .cs-card p{color:var(--ink-soft);font-size:.96rem}
-#case-studies .cs-card .go{margin-top:auto;font:500 .78rem 'IBM Plex Mono',monospace;letter-spacing:.07em;text-transform:uppercase}
-#case-studies .tags{display:flex;flex-wrap:wrap;gap:8px}
-#case-studies .tags span{font:500 .68rem 'IBM Plex Mono',monospace;border:1px solid var(--line);padding:3px 9px;background:var(--paper);color:var(--ink-soft)}
-#case-studies .cs{border-top:2px solid var(--ink)}
-#case-studies .cs.alt{background:var(--paper-deep)}
-#case-studies .cs-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
-#case-studies .cs-head .no{font:600 .8rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.14em}
-#case-studies .story{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:30px}
-#case-studies .story div{background:var(--cream);border:1px solid var(--line);padding:20px}
-#case-studies .story h4{font:600 .72rem 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
-#case-studies .story p{font-size:.94rem;color:var(--ink-soft)}
-#case-studies .steps{display:flex;gap:0;flex-wrap:wrap;margin-bottom:30px;border:1.5px solid var(--ink);background:var(--cream)}
-#case-studies .steps div{flex:1 1 150px;padding:14px 16px;border-right:1px solid var(--line);font-size:.86rem}
-#case-studies .steps div:last-child{border-right:none}
-#case-studies .steps b{display:block;font:600 .7rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.1em;margin-bottom:3px}
-#case-studies .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:30px}
-#case-studies .kpi{background:var(--ink);color:var(--cream);padding:20px 22px}
-#case-studies .kpi .v{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;display:block;line-height:1.15}
-#case-studies .kpi .l{font:400 .7rem 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#cdbf9f}
-#case-studies .kpi.ok .v{color:#9fd4b8}
-#case-studies .kpi.warn .v{color:#e8b4a8}
-#case-studies .viewer{background:var(--cream);border:1.5px solid var(--ink)}
-#case-studies .tabs{display:flex;overflow-x:auto;border-bottom:1.5px solid var(--ink);background:var(--paper)}
-#case-studies .tab{flex:0 0 auto;padding:12px 18px;font:500 .76rem 'IBM Plex Mono',monospace;letter-spacing:.05em;border:none;border-right:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer;white-space:nowrap}
-#case-studies .tab:hover{background:var(--paper-deep)}
-#case-studies .tab[aria-selected="true"]{background:var(--ink);color:var(--cream)}
-#case-studies .panel{padding:20px}
-#case-studies .panel .cap{font-size:.9rem;color:var(--ink-soft);margin-bottom:14px;max-width:80ch}
-#case-studies .tscroll{overflow-x:auto;border:1px solid var(--line);background:#fffdf7}
-#case-studies table{border-collapse:collapse;width:100%;font-size:.84rem}
-#case-studies th{background:var(--ink);color:var(--cream);text-align:left;font:500 .7rem 'IBM Plex Mono',monospace;letter-spacing:.07em;text-transform:uppercase;padding:10px 12px;white-space:nowrap;position:sticky;top:0}
-#case-studies td{padding:9px 12px;border-bottom:1px solid #e8dfc8;white-space:nowrap}
-#case-studies td.wrapc{white-space:normal;min-width:200px}
-#case-studies tr:nth-child(even) td{background:#faf5e8}
-#case-studies td.num,#case-studies th.num{text-align:right;font-family:'IBM Plex Mono',monospace}
-#case-studies td.neg{color:var(--red)}
-#case-studies tr.total td{font-weight:700;background:var(--paper-deep);border-top:2px solid var(--ink)}
-#case-studies tr.sect td{font:600 .72rem 'IBM Plex Mono',monospace;letter-spacing:.12em;color:var(--brass);background:var(--cream)}
-#case-studies .badge{display:inline-block;padding:2px 9px;font:500 .7rem 'IBM Plex Mono',monospace;border:1px solid;border-radius:999px}
-#case-studies .b-good{color:var(--green);border-color:var(--green);background:#e4efe9}
-#case-studies .b-bad{color:var(--red);border-color:var(--red);background:#f4e2de}
-#case-studies .b-mid{color:#7a5a1f;border-color:var(--brass);background:#f3e8d0}
-#case-studies .b-neutral{color:var(--ink-soft);border-color:var(--line);background:var(--paper)}
-#case-studies .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-#case-studies .chip{font:500 .72rem 'IBM Plex Mono',monospace;border:1px solid var(--ink);padding:5px 12px;background:transparent;cursor:pointer;color:var(--ink)}
-#case-studies .chip[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
-#case-studies .two{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
-#case-studies .box{background:var(--cream);border:1px solid var(--line);padding:20px}
-#case-studies .box h4{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:12px}
-#case-studies .bar{display:grid;grid-template-columns:150px 1fr 90px;gap:10px;align-items:center;font-size:.82rem;margin-bottom:8px}
-#case-studies .bar .t{height:12px;background:var(--paper-deep)}
-#case-studies .bar .t i{display:block;height:100%;background:var(--brass)}
-#case-studies .bar .n{font-family:'IBM Plex Mono',monospace;text-align:right}
-#case-studies .flag{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:.88rem}
-#case-studies .flag:last-child{border:none}
-#case-studies .flag b{font-family:'IBM Plex Mono',monospace;font-size:.78rem;white-space:nowrap}
-#case-studies .dl{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;align-items:center}
-#case-studies .dl small{font:400 .74rem 'IBM Plex Mono',monospace;color:var(--ink-soft)}
-#case-studies{padding:0}
-#case-studies .cs-intro{padding:86px 0 64px}
-#case-studies .cs{padding:64px 0}
-#case-studies h2{max-width:none}
-#case-studies .cs-intro h2{max-width:22ch}
-#case-studies .sec-label{margin-bottom:10px}
+:is(#case-studies,#case-views) .btn{padding:13px 24px;font:500 .8rem 'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--ink);display:inline-block;cursor:pointer;background:transparent;color:var(--ink)}
+:is(#case-studies,#case-views) .btn-primary{background:var(--ink);color:var(--cream)}
+:is(#case-studies,#case-views) .btn-primary:hover{background:var(--green);border-color:var(--green)}
+:is(#case-studies,#case-views) .btn:not(.btn-primary):hover{background:var(--ink);color:var(--cream)}
+:is(#case-studies,#case-views) .note{margin-top:26px;font:400 .78rem 'IBM Plex Mono',monospace;color:var(--ink-soft);border-left:2px solid var(--brass);padding-left:12px;max-width:70ch}
+:is(#case-studies,#case-views) h2{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.15;margin-bottom:14px}
+:is(#case-studies,#case-views) .cs-index{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+:is(#case-studies,#case-views) .cs-card{background:var(--cream);border:1.5px solid var(--ink);padding:28px;display:flex;flex-direction:column;gap:12px;transition:transform .2s,box-shadow .2s}
+:is(#case-studies,#case-views) .cs-card:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--ink)}
+:is(#case-studies,#case-views) .cs-card .no{font:600 .72rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.14em}
+:is(#case-studies,#case-views) .cs-card h3{font-family:'Fraunces',serif;font-size:1.45rem;line-height:1.2}
+:is(#case-studies,#case-views) .cs-card p{color:var(--ink-soft);font-size:.96rem}
+:is(#case-studies,#case-views) .cs-card .go{margin-top:auto;font:500 .78rem 'IBM Plex Mono',monospace;letter-spacing:.07em;text-transform:uppercase}
+:is(#case-studies,#case-views) .tags{display:flex;flex-wrap:wrap;gap:8px}
+:is(#case-studies,#case-views) .tags span{font:500 .68rem 'IBM Plex Mono',monospace;border:1px solid var(--line);padding:3px 9px;background:var(--paper);color:var(--ink-soft)}
+:is(#case-studies,#case-views) .cs{border-top:2px solid var(--ink)}
+:is(#case-studies,#case-views) .cs.alt{background:var(--paper-deep)}
+:is(#case-studies,#case-views) .cs-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+:is(#case-studies,#case-views) .cs-head .no{font:600 .8rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.14em}
+:is(#case-studies,#case-views) .story{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:30px}
+:is(#case-studies,#case-views) .story div{background:var(--cream);border:1px solid var(--line);padding:20px}
+:is(#case-studies,#case-views) .story h4{font:600 .72rem 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
+:is(#case-studies,#case-views) .story p{font-size:.94rem;color:var(--ink-soft)}
+:is(#case-studies,#case-views) .steps{display:flex;gap:0;flex-wrap:wrap;margin-bottom:30px;border:1.5px solid var(--ink);background:var(--cream)}
+:is(#case-studies,#case-views) .steps div{flex:1 1 150px;padding:14px 16px;border-right:1px solid var(--line);font-size:.86rem}
+:is(#case-studies,#case-views) .steps div:last-child{border-right:none}
+:is(#case-studies,#case-views) .steps b{display:block;font:600 .7rem 'IBM Plex Mono',monospace;color:var(--brass);letter-spacing:.1em;margin-bottom:3px}
+:is(#case-studies,#case-views) .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:30px}
+:is(#case-studies,#case-views) .kpi{background:var(--ink);color:var(--cream);padding:20px 22px}
+:is(#case-studies,#case-views) .kpi .v{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;display:block;line-height:1.15}
+:is(#case-studies,#case-views) .kpi .l{font:400 .7rem 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#cdbf9f}
+:is(#case-studies,#case-views) .kpi.ok .v{color:#9fd4b8}
+:is(#case-studies,#case-views) .kpi.warn .v{color:#e8b4a8}
+:is(#case-studies,#case-views) .viewer{background:var(--cream);border:1.5px solid var(--ink)}
+:is(#case-studies,#case-views) .tabs{display:flex;overflow-x:auto;border-bottom:1.5px solid var(--ink);background:var(--paper)}
+:is(#case-studies,#case-views) .tab{flex:0 0 auto;padding:12px 18px;font:500 .76rem 'IBM Plex Mono',monospace;letter-spacing:.05em;border:none;border-right:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer;white-space:nowrap}
+:is(#case-studies,#case-views) .tab:hover{background:var(--paper-deep)}
+:is(#case-studies,#case-views) .tab[aria-selected="true"]{background:var(--ink);color:var(--cream)}
+:is(#case-studies,#case-views) .panel{padding:20px}
+:is(#case-studies,#case-views) .panel .cap{font-size:.9rem;color:var(--ink-soft);margin-bottom:14px;max-width:80ch}
+:is(#case-studies,#case-views) .tscroll{overflow-x:auto;border:1px solid var(--line);background:#fffdf7}
+:is(#case-studies,#case-views) table{border-collapse:collapse;width:100%;font-size:.84rem}
+:is(#case-studies,#case-views) th{background:var(--ink);color:var(--cream);text-align:left;font:500 .7rem 'IBM Plex Mono',monospace;letter-spacing:.07em;text-transform:uppercase;padding:10px 12px;white-space:nowrap;position:sticky;top:0}
+:is(#case-studies,#case-views) td{padding:9px 12px;border-bottom:1px solid #e8dfc8;white-space:nowrap}
+:is(#case-studies,#case-views) td.wrapc{white-space:normal;min-width:200px}
+:is(#case-studies,#case-views) tr:nth-child(even) td{background:#faf5e8}
+:is(#case-studies,#case-views) td.num,:is(#case-studies,#case-views) th.num{text-align:right;font-family:'IBM Plex Mono',monospace}
+:is(#case-studies,#case-views) td.neg{color:var(--red)}
+:is(#case-studies,#case-views) tr.total td{font-weight:700;background:var(--paper-deep);border-top:2px solid var(--ink)}
+:is(#case-studies,#case-views) tr.sect td{font:600 .72rem 'IBM Plex Mono',monospace;letter-spacing:.12em;color:var(--brass);background:var(--cream)}
+:is(#case-studies,#case-views) .badge{display:inline-block;padding:2px 9px;font:500 .7rem 'IBM Plex Mono',monospace;border:1px solid;border-radius:999px}
+:is(#case-studies,#case-views) .b-good{color:var(--green);border-color:var(--green);background:#e4efe9}
+:is(#case-studies,#case-views) .b-bad{color:var(--red);border-color:var(--red);background:#f4e2de}
+:is(#case-studies,#case-views) .b-mid{color:#7a5a1f;border-color:var(--brass);background:#f3e8d0}
+:is(#case-studies,#case-views) .b-neutral{color:var(--ink-soft);border-color:var(--line);background:var(--paper)}
+:is(#case-studies,#case-views) .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+:is(#case-studies,#case-views) .chip{font:500 .72rem 'IBM Plex Mono',monospace;border:1px solid var(--ink);padding:5px 12px;background:transparent;cursor:pointer;color:var(--ink)}
+:is(#case-studies,#case-views) .chip[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
+:is(#case-studies,#case-views) .two{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
+:is(#case-studies,#case-views) .box{background:var(--cream);border:1px solid var(--line);padding:20px}
+:is(#case-studies,#case-views) .box h4{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:12px}
+:is(#case-studies,#case-views) .bar{display:grid;grid-template-columns:150px 1fr 90px;gap:10px;align-items:center;font-size:.82rem;margin-bottom:8px}
+:is(#case-studies,#case-views) .bar .t{height:12px;background:var(--paper-deep)}
+:is(#case-studies,#case-views) .bar .t i{display:block;height:100%;background:var(--brass)}
+:is(#case-studies,#case-views) .bar .n{font-family:'IBM Plex Mono',monospace;text-align:right}
+:is(#case-studies,#case-views) .flag{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:.88rem}
+:is(#case-studies,#case-views) .flag:last-child{border:none}
+:is(#case-studies,#case-views) .flag b{font-family:'IBM Plex Mono',monospace;font-size:.78rem;white-space:nowrap}
+:is(#case-studies,#case-views) .dl{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;align-items:center}
+:is(#case-studies,#case-views) .dl small{font:400 .74rem 'IBM Plex Mono',monospace;color:var(--ink-soft)}
+:is(#case-studies,#case-views){padding:0}
+:is(#case-studies,#case-views) .cs-intro{padding:86px 0 64px}
+:is(#case-studies,#case-views) .cs{padding:64px 0}
+:is(#case-studies,#case-views) h2{max-width:none}
+:is(#case-studies,#case-views) .cs-intro h2{max-width:22ch}
+:is(#case-studies,#case-views) .sec-label{margin-bottom:10px}
 @media(max-width:900px){
-#case-studies nav{display:none}
-#case-studies .cs-index,#case-studies .story,#case-studies .two{grid-template-columns:1fr}
-#case-studies .kpis{grid-template-columns:1fr 1fr}
-#case-studies .bar{grid-template-columns:110px 1fr 80px}
-#case-studies .steps div{border-right:none;border-bottom:1px solid var(--line)}
-#case-studies .cs-intro{padding:56px 0 40px}#case-studies .cs{padding:48px 0}
+:is(#case-studies,#case-views) nav{display:none}
+:is(#case-studies,#case-views) .cs-index,:is(#case-studies,#case-views) .story,:is(#case-studies,#case-views) .two{grid-template-columns:1fr}
+:is(#case-studies,#case-views) .kpis{grid-template-columns:1fr 1fr}
+:is(#case-studies,#case-views) .bar{grid-template-columns:110px 1fr 80px}
+:is(#case-studies,#case-views) .steps div{border-right:none;border-bottom:1px solid var(--line)}
+:is(#case-studies,#case-views) .cs-intro{padding:56px 0 40px}:is(#case-studies,#case-views) .cs{padding:48px 0}
 }
-#case-studies .cs-intro .btn-row{display:flex;gap:14px;flex-wrap:wrap}
+:is(#case-studies,#case-views) .cs-intro .btn-row{display:flex;gap:14px;flex-wrap:wrap}
+
+[hidden]{display:none !important}
+#case-views .backbar{padding:30px 0 0}
+#case-views .backbar a{font:500 .78rem 'IBM Plex Mono',monospace;letter-spacing:.07em;text-transform:uppercase;border-bottom:1.5px solid var(--brass);padding-bottom:2px}
+#case-views .backbar a:hover{color:var(--green);border-color:var(--green)}
+#case-views .cs{border-top:none;padding:34px 0 64px}
+#case-views .pager{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:44px;padding-top:24px;border-top:2px solid var(--ink)}
+#case-views .case-note{margin-top:22px}
 </style>
 </head>
 <body>
@@ -520,6 +528,7 @@
   </div>
 </header>
 
+<div id="mainView">
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="id-card">
@@ -724,14 +733,14 @@
   <p class="note">All names, vendors, reference numbers and amounts in these samples are fictional and built for demonstration only. They contain no real employer or client records.</p>
 
   <div class="cs-index">
-   <a class="cs-card" href="case-study-1.html">
+   <a class="cs-card" href="#case-1">
     <span class="no">CASE STUDY 01</span>
     <h3>Maple Leaf Landscaping: One Month of Books</h3>
     <p>From a raw bank export to a coded ledger, bank reconciliation, Profit &amp; Loss and a balanced Balance Sheet.</p>
     <div class="tags"><span>Categorization</span><span>Bank Reconciliation</span><span>P&amp;L</span><span>Balance Sheet</span></div>
     <span class="go">Open case study →</span>
    </a>
-   <a class="cs-card" href="case-study-2.html">
+   <a class="cs-card" href="#case-2">
     <span class="no">CASE STUDY 02</span>
     <h3>Accounts Payable Payment Monitoring</h3>
     <p>Invoice verification, payment status tracking, expense categorization and payment-to-bank reconciliation.</p>
@@ -862,6 +871,119 @@
     </div>
   </div>
 </section>
+</div>
+
+<div id="case-views">
+<div class="case-view" id="view-1" data-title="Case Study 01: Maple Leaf Landscaping Books" hidden>
+ <div class="wrap backbar"><a href="#case-studies">← Back to all case studies</a></div>
+ <div class="wrap case-note"><p class="note">All names, vendors, reference numbers and amounts in this sample are fictional and built for demonstration only. They contain no real employer or client records.</p></div>
+<div class="cs" id="cs-body-1">
+ <div class="wrap">
+  <div class="cs-head">
+   <div>
+    <div class="no">CASE STUDY 01 · MONTHLY BOOKKEEPING</div>
+    <h2>Maple Leaf Landscaping — June 2026 Books</h2>
+    <div class="tags"><span>Excel</span><span>Chart of Accounts</span><span>Bank Reconciliation</span><span>Financial Statements</span></div>
+   </div>
+  </div>
+
+  <div class="story">
+   <div><h4>The Problem</h4><p>A small landscaping business has a month of unedited bank transactions with cryptic descriptions and no categories, so the owner can't see income, expenses or profit.</p></div>
+   <div><h4>What I Did</h4><p>Set up a chart of accounts, coded every transaction, reconciled the books to the bank statement, then built the Profit &amp; Loss and Balance Sheet from the ledger.</p></div>
+   <div><h4>The Outcome</h4><p>Books agree with the bank to the cent, the Balance Sheet balances, and the owner sees a clear picture of profit for the month.</p></div>
+  </div>
+
+  <div class="steps">
+   <div><b>STEP 1</b>Chart of Accounts</div>
+   <div><b>STEP 2</b>Raw Bank Feed</div>
+   <div><b>STEP 3</b>Categorized Ledger</div>
+   <div><b>STEP 4</b>Bank Reconciliation</div>
+   <div><b>STEP 5</b>Profit &amp; Loss</div>
+   <div><b>STEP 6</b>Balance Sheet</div>
+  </div>
+
+  <div class="kpis" id="kpi1"></div>
+
+  <div class="viewer">
+   <div class="tabs" role="tablist" id="tabs1"></div>
+   <div class="panel" id="panel1" role="tabpanel"></div>
+  </div>
+
+  <div class="two">
+   <div class="box"><h4>Where the money went</h4><div id="bars1"></div></div>
+   <div class="box"><h4>Skills demonstrated</h4>
+    <div class="flag"><b>✓</b><span>Translating bank descriptions (e.g. “SQ *MAPLE LEAF LAWN SVC”) into the right income or expense account</span></div>
+    <div class="flag"><b>✓</b><span>Treating the owner transfer as an Owner's Draw, not an expense</span></div>
+    <div class="flag"><b>✓</b><span>Reconciling book balance to the bank statement balance</span></div>
+    <div class="flag"><b>✓</b><span>Building statements that tie back to the ledger and balance</span></div>
+   </div>
+  </div>
+
+  <div class="dl">
+   <a class="btn btn-primary" href="Maple_Leaf_Landscaping_Mock_Books.xlsx" download>Download the Excel file</a>
+   <small>Includes the live formulas. Opens in Excel or Google Sheets.</small>
+
+   <div class="pager">
+    <a class="btn" href="#case-studies">← All case studies</a>
+    <a class="btn btn-primary" href="#case-2">Next: Case Study 02 →</a>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+
+<div class="case-view" id="view-2" data-title="Case Study 02: AP Payment Monitoring" hidden>
+ <div class="wrap backbar"><a href="#case-studies">← Back to all case studies</a></div>
+ <div class="wrap case-note"><p class="note">All names, vendors, reference numbers and amounts in this sample are fictional and built for demonstration only. They contain no real employer or client records.</p></div>
+<div class="cs" id="cs-body-2">
+ <div class="wrap">
+  <div class="cs-head">
+   <div>
+    <div class="no">CASE STUDY 02 · ACCOUNTS PAYABLE</div>
+    <h2>AP Payment Monitoring &amp; Expense Tracking</h2>
+    <div class="tags"><span>Excel</span><span>QuickBooks Online</span><span>Invoice Verification</span><span>Payment Reconciliation</span></div>
+   </div>
+  </div>
+
+  <div class="story">
+   <div><h4>The Problem</h4><p>Vendor invoices arrive with different due dates and document gaps. Without one tracker, it's hard to know what's paid, what's pending, and what shouldn't be paid yet.</p></div>
+   <div><h4>What I Did</h4><p>Logged each invoice with a unique reference, checked payee, amount and supporting documents, tracked payment method and bank clearing, and categorized every expense.</p></div>
+   <div><h4>The Outcome</h4><p>Invoices missing a PO or with mismatched totals were held before payment, and open items were visible at a glance before reporting.</p></div>
+  </div>
+
+  <div class="steps">
+   <div><b>STEP 1</b>Record invoice &amp; assign reference</div>
+   <div><b>STEP 2</b>Verify payee, amount, due date, documents</div>
+   <div><b>STEP 3</b>Track method, release &amp; bank clearing</div>
+   <div><b>STEP 4</b>Categorize &amp; monitor pending</div>
+   <div><b>STEP 5</b>Review totals before reporting</div>
+  </div>
+
+  <div class="kpis" id="kpi2"></div>
+
+  <div class="viewer">
+   <div class="tabs" role="tablist" id="tabs2"></div>
+   <div class="panel" id="panel2" role="tabpanel"></div>
+  </div>
+
+  <div class="two">
+   <div class="box"><h4>Spend by category</h4><div id="bars2"></div></div>
+   <div class="box"><h4>Items needing attention</h4><div id="flags2"></div></div>
+  </div>
+
+  <div class="dl">
+   <a class="btn btn-primary" href="Bookkeeping_AP_Portfolio_Sample.xlsx" download>Download the Excel file</a>
+   <small>Fictional payees and amounts (PHP). For demonstration only.</small>
+
+   <div class="pager">
+    <a class="btn" href="#case-studies">← All case studies</a>
+    <a class="btn btn-primary" href="#case-1">← Case Study 01</a>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+</div>
 
 <section class="contact" id="contact">
   <div class="wrap">
@@ -905,6 +1027,172 @@
   track.innerHTML = buildRows() + buildRows();
 </script>
 
+<script>
+(function(){
+const D = {"coa": [[1000.0, "Business Checking", "Asset", "Primary operating bank account"], [1100.0, "Accounts Receivable", "Asset", "Invoiced amounts owed by customers"], [1500.0, "Equipment", "Asset", "Mowers, trimmers, trailers"], [2000.0, "Accounts Payable", "Liability", "Owed to vendors/suppliers"], [2100.0, "Sales Tax Payable", "Liability", "Sales tax collected, not yet remitted"], [3000.0, "Owner's Equity", "Equity", "Owner's investment / retained earnings"], [3100.0, "Owner's Draw", "Equity", "Cash withdrawn by owner for personal use"], [4000.0, "Service Income - Mowing", "Income", "Recurring lawn mowing contracts"], [4010.0, "Service Income - Landscaping", "Income", "One-off landscaping / design jobs"], [5000.0, "Fuel & Vehicle", "Expense", "Gas, vehicle maintenance"], [5010.0, "Equipment & Supplies", "Expense", "Small tools, mulch, seed, fertilizer"], [5020.0, "Insurance", "Expense", "General liability & vehicle insurance"], [5030.0, "Software Subscriptions", "Expense", "Scheduling app, invoicing software"], [5040.0, "Meals & Entertainment", "Expense", "Client meetings"], [5050.0, "Bank Fees", "Expense", "Monthly account fees, card fees"], [5060.0, "Office Supplies", "Expense", "Printer paper, invoices, misc."], [5070.0, "Utilities", "Expense", "Shop phone line"], [5080.0, "Advertising", "Expense", "Flyers, local ads"]], "raw": [["2026-06-02", "DEP MOBILE CHECK #1042 - J. Alvarez", 450.0, 4630], ["2026-06-02", "SQ *MAPLE LEAF LAWN SVC", 210.0, 4840], ["2026-06-03", "SHELL OIL 04471 GAS PURCHASE", -62.15, 4777.85], ["2026-06-03", "HOME DEPOT #3391", -128.44, 4649.41], ["2026-06-04", "STATE FARM INSURANCE AUTOPAY", -184.0, 4465.41], ["2026-06-05", "DEP MOBILE CHECK #1043 - R. Chen", 600.0, 5065.41], ["2026-06-05", "JOBBER SOFTWARE MONTHLY", -49.0, 5016.41], ["2026-06-06", "SQ *MAPLE LEAF LAWN SVC", 340.0, 5356.41], ["2026-06-07", "CHIPOTLE MEXICAN GRILL", -18.72, 5337.69], ["2026-06-08", "MONTHLY MAINTENANCE FEE", -12.0, 5325.69], ["2026-06-09", "DEP MOBILE CHECK #1044 - T. Osei", 900.0, 6225.69], ["2026-06-10", "MULCH & MORE LANDSCAPE SUPPLY", -215.3, 6010.39], ["2026-06-11", "SQ *MAPLE LEAF LAWN SVC", 210.0, 6220.39], ["2026-06-12", "SHELL OIL 04471 GAS PURCHASE", -58.9, 6161.49], ["2026-06-13", "VERIZON WIRELESS AUTOPAY", -65.0, 6096.49], ["2026-06-15", "DEP MOBILE CHECK #1045 - HOA Greenfield Est.", 1250.0, 7346.49], ["2026-06-16", "OFFICE DEPOT #2210", -34.18, 7312.31], ["2026-06-17", "SQ *MAPLE LEAF LAWN SVC", 210.0, 7522.31], ["2026-06-18", "STIHL DEALER - TRIMMER LINE", -41.6, 7480.71], ["2026-06-19", "OWNER TRANSFER TO PERSONAL ACCT", -800.0, 6680.71], ["2026-06-20", "CHIPOTLE MEXICAN GRILL", -22.15, 6658.56], ["2026-06-22", "DEP MOBILE CHECK #1046 - J. Alvarez", 450.0, 7108.56], ["2026-06-23", "SHELL OIL 04471 GAS PURCHASE", -60.05, 7048.51], ["2026-06-24", "LOCAL FLYER PRINTING CO", -75.0, 6973.51], ["2026-06-25", "SQ *MAPLE LEAF LAWN SVC", 210.0, 7183.51], ["2026-06-26", "JOBBER SOFTWARE - SMS ADDON", -9.0, 7174.51], ["2026-06-29", "DEP MOBILE CHECK #1047 - R. Chen", 600.0, 7774.51], ["2026-06-30", "STATE FARM INSURANCE AUTOPAY", -184.0, 7590.51], ["2026-06-30", "MONTHLY MAINTENANCE FEE", -12.0, 7578.51]], "led": [["2026-06-02", "Deposit - Mowing Contract (J. Alvarez)", 450.0, "Service Income - Mowing", "Income"], ["2026-06-02", "Deposit - Mowing Contract (Square)", 210.0, "Service Income - Mowing", "Income"], ["2026-06-03", "Gas - Shell", -62.15, "Fuel & Vehicle", "Expense"], ["2026-06-03", "Home Depot - mulch, gloves, hardware", -128.44, "Equipment & Supplies", "Expense"], ["2026-06-04", "State Farm - monthly premium", -184.0, "Insurance", "Expense"], ["2026-06-05", "Deposit - Landscaping Job (R. Chen)", 600.0, "Service Income - Landscaping", "Income"], ["2026-06-05", "Jobber - monthly subscription", -49.0, "Software Subscriptions", "Expense"], ["2026-06-06", "Deposit - Mowing Contract (Square)", 340.0, "Service Income - Mowing", "Income"], ["2026-06-07", "Client lunch meeting - Chipotle", -18.72, "Meals & Entertainment", "Expense"], ["2026-06-08", "Bank monthly maintenance fee", -12.0, "Bank Fees", "Expense"], ["2026-06-09", "Deposit - Landscaping Job (T. Osei)", 900.0, "Service Income - Landscaping", "Income"], ["2026-06-10", "Mulch & More - bulk mulch, seed", -215.3, "Equipment & Supplies", "Expense"], ["2026-06-11", "Deposit - Mowing Contract (Square)", 210.0, "Service Income - Mowing", "Income"], ["2026-06-12", "Gas - Shell", -58.9, "Fuel & Vehicle", "Expense"], ["2026-06-13", "Verizon - shop phone line", -65.0, "Utilities", "Expense"], ["2026-06-15", "Deposit - HOA Contract (Greenfield Estates)", 1250.0, "Service Income - Mowing", "Income"], ["2026-06-16", "Office Depot - invoices, paper", -34.18, "Office Supplies", "Expense"], ["2026-06-17", "Deposit - Mowing Contract (Square)", 210.0, "Service Income - Mowing", "Income"], ["2026-06-18", "Stihl dealer - trimmer line", -41.6, "Equipment & Supplies", "Expense"], ["2026-06-19", "Owner draw - transfer to personal account", -800.0, "Owner's Draw", "Equity"], ["2026-06-20", "Client lunch meeting - Chipotle", -22.15, "Meals & Entertainment", "Expense"], ["2026-06-22", "Deposit - Mowing Contract (J. Alvarez)", 450.0, "Service Income - Mowing", "Income"], ["2026-06-23", "Gas - Shell", -60.05, "Fuel & Vehicle", "Expense"], ["2026-06-24", "Flyer printing - local ad run", -75.0, "Advertising", "Expense"], ["2026-06-25", "Deposit - Mowing Contract (Square)", 210.0, "Service Income - Mowing", "Income"], ["2026-06-26", "Jobber - SMS add-on", -9.0, "Software Subscriptions", "Expense"], ["2026-06-29", "Deposit - Landscaping Job (R. Chen)", 600.0, "Service Income - Landscaping", "Income"], ["2026-06-30", "State Farm - monthly premium", -184.0, "Insurance", "Expense"], ["2026-06-30", "Bank monthly maintenance fee", -12.0, "Bank Fees", "Expense"]], "beg": 4180.0, "ap": [["AP-2026-001", "Northstar Logistics Services", "INV-NS-26001", "2026-10-02", "2026-10-17", "Transportation", 68500, "Complete", "Bank Transfer", "2026-10-15", "Paid", "Cleared", "Matched to payment record"], ["AP-2026-002", "Brightline Office Supplies", "INV-BL-26018", "2026-10-04", "2026-10-19", "Office Supplies", 12840, "Complete", "Bank Transfer", "2026-10-18", "Paid", "Cleared", "Invoice and receipt checked"], ["AP-2026-003", "Evergreen Property Leasing", "INV-EG-2610", "2026-10-05", "2026-10-20", "Rent", 48000, "Complete", "Cheque", "2026-10-19", "Paid", "Pending Clearing", "Awaiting bank clearing"], ["AP-2026-004", "MetroFuel Trading", "INV-MF-26077", "2026-10-08", "2026-10-23", "Fuel", 22450, "Missing PO", "Bank Transfer", null, "On Hold", "Not Applicable", "Follow up for purchase order"], ["AP-2026-005", "Clearwater Maintenance Co.", "INV-CW-26032", "2026-10-10", "2026-10-25", "Repairs & Maintenance", 15750, "Complete", "Bank Transfer", null, "For Approval", "Not Applicable", "Pending approval"], ["AP-2026-006", "Summit Telecom Solutions", "INV-ST-26104", "2026-10-11", "2026-10-26", "Utilities", 9320, "Complete", "Bank Transfer", "2026-10-24", "Paid", "Cleared", "Payment matched to bank record"], ["AP-2026-007", "Harborway Freight Partners", "INV-HF-26091", "2026-10-13", "2026-10-28", "Transportation", 73500, "Complete", "Cheque", null, "Scheduled", "Not Applicable", "Included in next payment run"], ["AP-2026-008", "Papertrail Business Products", "INV-PB-26055", "2026-10-14", "2026-10-29", "Office Supplies", 6840, "Amount Mismatch", "Bank Transfer", null, "On Hold", "Not Applicable", "Invoice total differs from supporting receipt"]], "et": [["2026-10-02", "Northstar Logistics Services", "Local delivery and transport", "Transportation", "INV-NS-26001", 68500, "QuickBooks Online", "Reviewed"], ["2026-10-04", "Brightline Office Supplies", "Printer paper and office materials", "Office Supplies", "INV-BL-26018", 12840, "QuickBooks Online", "Reviewed"], ["2026-10-05", "Evergreen Property Leasing", "Monthly office rental", "Rent", "INV-EG-2610", 48000, "QuickBooks Online", "Reviewed"], ["2026-10-08", "MetroFuel Trading", "Vehicle fuel expense", "Fuel", "INV-MF-26077", 22450, "QuickBooks Online", "Pending PO"], ["2026-10-10", "Clearwater Maintenance Co.", "Equipment maintenance", "Repairs & Maintenance", "INV-CW-26032", 15750, "QuickBooks Online", "Reviewed"], ["2026-10-11", "Summit Telecom Solutions", "Internet and telephone", "Utilities", "INV-ST-26104", 9320, "QuickBooks Online", "Reviewed"], ["2026-10-13", "Harborway Freight Partners", "Freight and delivery charges", "Transportation", "INV-HF-26091", 73500, "QuickBooks Online", "Reviewed"], ["2026-10-14", "Papertrail Business Products", "Office supplies purchase", "Office Supplies", "INV-PB-26055", 6840, "QuickBooks Online", "Amount check"]], "pr": [["AP-2026-001", "Northstar Logistics Services", 68500, 68500, 0, "Matched", "No action required"], ["AP-2026-002", "Brightline Office Supplies", 12840, 12840, 0, "Matched", "No action required"], ["AP-2026-003", "Evergreen Property Leasing", 48000, 0, 48000, "Pending", "Cheque not yet reflected in bank statement"], ["AP-2026-006", "Summit Telecom Solutions", 9320, 9320, 0, "Matched", "No action required"]]};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const money = (n, cur='$') => (n<0?'-':'') + cur + Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fdate = s => { if(!s) return '—'; const d=new Date(s+'T00:00:00'); return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); };
+const sum = a => a.reduce((x,y)=>x+y,0);
+
+function badge(v){
+  const good=['Paid','Complete','Cleared','Matched','Reviewed','RECONCILED'], bad=['On Hold','Missing PO','Amount Mismatch','Amount check','Pending PO'], mid=['Pending','Pending Clearing','For Approval','Scheduled'];
+  const c = good.includes(v)?'b-good':bad.includes(v)?'b-bad':mid.includes(v)?'b-mid':'b-neutral';
+  return `<span class="badge ${c}">${esc(v)}</span>`;
+}
+function table(cols, rows){
+  // cols: [{h, k(fn row->html), num?, wrap?}]
+  return `<div class="tscroll"><table><thead><tr>${cols.map(c=>`<th class="${c.num?'num':''}">${c.h}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function tabs(tabsEl, panelEl, defs, idPrefix){
+  tabsEl.innerHTML = defs.map((t,i)=>`<button class="tab" role="tab" aria-selected="${i===0}" data-i="${i}">${t.name}</button>`).join('');
+  const show = i => {
+    tabsEl.querySelectorAll('.tab').forEach((b,j)=>b.setAttribute('aria-selected', j===i));
+    panelEl.innerHTML = defs[i].render();
+    if(defs[i].after) defs[i].after();
+  };
+  tabsEl.addEventListener('click', e => { const b=e.target.closest('.tab'); if(b) show(+b.dataset.i); });
+  show(0);
+}
+const kpi = (v,l,cls='') => `<div class="kpi ${cls}"><span class="v">${v}</span><span class="l">${l}</span></div>`;
+
+/* ---------------- CASE 1: Maple Leaf ---------------- */
+const led = D.led.map(r=>({date:r[0],desc:r[1],amt:r[2],cat:r[3],type:r[4]}));
+const inc = sum(led.filter(r=>r.type==='Income').map(r=>r.amt));
+const expTot = -sum(led.filter(r=>r.type==='Expense').map(r=>r.amt));
+const draw = -sum(led.filter(r=>r.cat==="Owner's Draw").map(r=>r.amt));
+const net = inc - expTot;
+const endBal = D.beg + sum(led.map(r=>r.amt));
+const catSum = name => sum(led.filter(r=>r.cat===name).map(r=>r.amt));
+const equipment = 6200, begEquity = 10380;   // fixed balances stated in the workbook's Balance Sheet
+const totalAssets = endBal + equipment, totalEquity = begEquity - draw + net;
+const stmtBank = 7578.51;                     // ending balance per bank statement (workbook)
+const diff = Math.round((endBal - stmtBank)*100)/100;
+
+$('#kpi1').innerHTML =
+  kpi(money(inc),'Total income') + kpi(money(expTot),'Total expenses') +
+  kpi(money(net),'Net income','ok') + kpi(diff===0?'Reconciled ✓':money(diff),'Book vs bank · difference '+money(diff), diff===0?'ok':'warn');
+
+const t1 = [
+ {name:'Raw → Coded', render:()=>{
+   const rows = D.raw.map((r,i)=>{const l=led[i];return `<tr><td>${fdate(r[0])}</td><td>${esc(r[1])}</td><td class="num ${r[2]<0?'neg':''}">${money(r[2])}</td><td>${esc(l.desc)}</td><td>${esc(l.cat)}</td><td>${badge(l.type)}</td></tr>`}).join('');
+   return `<p class="cap">The messy starting point and the finished result side by side: what the bank shows (left) and how each line was cleaned up and coded to the chart of accounts (right).</p>` +
+     table([{h:'Date'},{h:'Bank description (raw)'},{h:'Amount',num:1},{h:'Clean description'},{h:'Account'},{h:'Type'}],rows);}},
+ {name:'Chart of Accounts', render:()=>{
+   const rows = D.coa.map(r=>`<tr><td class="mono">${r[0]}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join('');
+   return `<p class="cap">The account list every transaction is coded against.</p>` + table([{h:'Account #'},{h:'Account name'},{h:'Type'},{h:'Description'}],rows);}},
+ {name:'Raw Bank Feed', render:()=>{
+   let rows = `<tr><td>${fdate('2026-06-01')}</td><td>BEG BALANCE</td><td></td><td class="num">${money(D.beg)}</td></tr>`;
+   let bal = D.beg;
+   rows += D.raw.map(r=>{bal+=r[2];return `<tr><td>${fdate(r[0])}</td><td>${esc(r[1])}</td><td class="num ${r[2]<0?'neg':''}">${money(r[2])}</td><td class="num">${money(bal)}</td></tr>`}).join('');
+   return `<p class="cap">Unedited export from the business checking account.</p>` + table([{h:'Date'},{h:'Description (as shown by bank)'},{h:'Amount',num:1},{h:'Balance',num:1}],rows);}},
+ {name:'Categorized Ledger', render:()=>{
+   const rows = led.map(r=>`<tr><td>${fdate(r.date)}</td><td>${esc(r.desc)}</td><td class="num ${r.amt<0?'neg':''}">${money(r.amt)}</td><td>${esc(r.cat)}</td><td>${badge(r.type)}</td></tr>`).join('');
+   return `<p class="cap">Every transaction coded to an account. The P&amp;L and Balance Sheet pull from this sheet.</p>` + table([{h:'Date'},{h:'Description'},{h:'Amount',num:1},{h:'Category'},{h:'Type'}],rows);}},
+ {name:'Bank Reconciliation', render:()=>{
+   const r = (a,b,cls='')=>`<tr class="${cls}"><td>${a}</td><td class="num">${b}</td></tr>`;
+   const dep = sum(led.filter(x=>x.amt>0).map(x=>x.amt)), pay = sum(led.filter(x=>x.amt<0).map(x=>x.amt));
+   return `<p class="cap">Proving the books agree with the bank statement as of June 30, 2026. In this sample everything cleared by month end, so there are no outstanding items.</p>
+   <div class="two" style="margin-top:0">
+    <div><h4 style="margin-bottom:8px;font-family:Fraunces,serif">Book balance (per ledger)</h4>${table([{h:'Item'},{h:'Amount',num:1}],
+      r('Beginning balance, 6/1/2026',money(D.beg))+r('Plus: total deposits',money(dep))+r('Less: total payments (expenses + owner draw)',money(pay))+r('Ending book balance',money(endBal),'total'))}</div>
+    <div><h4 style="margin-bottom:8px;font-family:Fraunces,serif">Bank statement balance</h4>${table([{h:'Item'},{h:'Amount',num:1}],
+      r('Ending balance per bank statement, 6/30/2026',money(stmtBank))+r('Less: outstanding checks / payments',money(0))+r('Plus: deposits in transit',money(0))+r('Adjusted bank balance',money(stmtBank),'total'))}</div>
+   </div>
+   <p style="margin-top:16px">Difference: <b class="mono">${money(diff)}</b> &nbsp; ${badge(diff===0?'RECONCILED':'Pending')}</p>`;}},
+ {name:'Profit & Loss', render:()=>{
+   const accts = t => D.coa.filter(a=>a[2]===t);
+   const line = a=>{const v=a[2]==='Income'?catSum(a[1]):-catSum(a[1]);return `<tr><td>${esc(a[1])}</td><td class="num">${money(v)}</td></tr>`};
+   const rows = `<tr class="sect"><td colspan="2">INCOME</td></tr>${accts('Income').map(line).join('')}<tr class="total"><td>Total income</td><td class="num">${money(inc)}</td></tr>
+   <tr class="sect"><td colspan="2">EXPENSES</td></tr>${accts('Expense').map(line).join('')}<tr class="total"><td>Total expenses</td><td class="num">${money(expTot)}</td></tr>
+   <tr class="total"><td>NET INCOME</td><td class="num">${money(net)}</td></tr>`;
+   return `<p class="cap">Profit &amp; Loss for the month ended June 30, 2026, built from the categorized ledger.</p>` + table([{h:'Account'},{h:'Amount',num:1}],rows);}},
+ {name:'Balance Sheet', render:()=>{
+   const bal = Math.round((totalAssets-totalEquity)*100)/100;
+   const rows = `<tr class="sect"><td colspan="2">ASSETS</td></tr><tr><td>Business Checking</td><td class="num">${money(endBal)}</td></tr><tr><td>Equipment (at cost, no depreciation applied)</td><td class="num">${money(equipment)}</td></tr><tr class="total"><td>Total assets</td><td class="num">${money(totalAssets)}</td></tr>
+   <tr class="sect"><td colspan="2">LIABILITIES</td></tr><tr><td>Accounts Payable</td><td class="num">${money(0)}</td></tr><tr class="total"><td>Total liabilities</td><td class="num">${money(0)}</td></tr>
+   <tr class="sect"><td colspan="2">EQUITY</td></tr><tr><td>Owner's equity (beginning)</td><td class="num">${money(begEquity)}</td></tr><tr><td>Owner's draw</td><td class="num neg">${money(-draw)}</td></tr><tr><td>Net income (from P&amp;L)</td><td class="num">${money(net)}</td></tr><tr class="total"><td>Total equity</td><td class="num">${money(totalEquity)}</td></tr>
+   <tr class="total"><td>Total liabilities + equity</td><td class="num">${money(totalEquity)}</td></tr>`;
+   return `<p class="cap">Snapshot of what the business owns and owes as of June 30, 2026.</p>` + table([{h:'Account'},{h:'Amount',num:1}],rows) +
+     `<p style="margin-top:16px">Check (assets = liabilities + equity): ${badge(bal===0?'RECONCILED':'Pending')} <span class="mono" style="font-size:.8rem"> ${bal===0?'BALANCED':'Out by '+money(bal)}</span></p>`;}}
+];
+tabs($('#tabs1'),$('#panel1'),t1);
+
+(function(){
+  const ex = D.coa.filter(a=>a[2]==='Expense').map(a=>[a[1],-catSum(a[1])]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
+  const max = ex[0][1];
+  $('#bars1').innerHTML = ex.map(x=>`<div class="bar"><span>${esc(x[0])}</span><span class="t"><i style="width:${x[1]/max*100}%"></i></span><span class="n">${money(x[1])}</span></div>`).join('');
+})();
+
+/* ---------------- CASE 2: AP ---------------- */
+const P = n => '₱' + Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const ap = D.ap.map(r=>({ref:r[0],payee:r[1],inv:r[2],filed:r[3],end:r[4],cat:r[5],amt:r[6],doc:r[7],method:r[8],paid:r[9],pstat:r[10],bank:r[11],rem:r[12]}));
+const totalInv = sum(ap.map(r=>r.amt));
+const paidAmt = sum(ap.filter(r=>r.pstat==='Paid').map(r=>r.amt));
+const clearedAmt = sum(ap.filter(r=>r.pstat==='Paid'&&r.bank==='Cleared').map(r=>r.amt));
+const openAmt = totalInv - paidAmt;
+$('#kpi2').innerHTML = kpi(P(totalInv).replace('.00',''),`Total sample invoices (${ap.length})`) + kpi(P(paidAmt).replace('.00',''),'Paid') +
+  kpi(P(openAmt).replace('.00',''),'Open / pending','warn') + kpi(P(clearedAmt).replace('.00',''),'Cleared in bank','ok');
+
+let apFilter = 'All';
+const t2 = [
+ {name:'AP Payment Monitoring', render:()=>{
+   const statuses = ['All',...new Set(ap.map(r=>r.pstat))];
+   const chips = `<div class="chips">${statuses.map(s=>`<button class="chip" aria-pressed="${s===apFilter}" data-f="${s}">${s}</button>`).join('')}</div>`;
+   const list = ap.filter(r=>apFilter==='All'||r.pstat===apFilter);
+   const rows = list.map(r=>`<tr><td class="mono">${r.ref}</td><td>${esc(r.payee)}</td><td class="mono">${r.inv}</td><td>${fdate(r.filed)}</td><td>${fdate(r.end)}</td><td>${esc(r.cat)}</td><td class="num">${P(r.amt)}</td><td>${badge(r.doc)}</td><td>${esc(r.method)}</td><td>${fdate(r.paid)}</td><td>${badge(r.pstat)}</td><td>${badge(r.bank)}</td><td class="wrapc">${esc(r.rem)}</td></tr>`).join('');
+   const foot = `<tr class="total"><td colspan="6">Total (${list.length} invoice${list.length===1?'':'s'})</td><td class="num">${P(sum(list.map(r=>r.amt)))}</td><td colspan="6"></td></tr>`;
+   return `<p class="cap">Each invoice is checked for payee, amount, due date and supporting documents before payment, then tracked through release and bank clearing. Use the filters to view by payment status.</p>${chips}` +
+     table([{h:'Reference'},{h:'Payee'},{h:'Invoice'},{h:'Date filed'},{h:'Date end'},{h:'Category'},{h:'Amount',num:1},{h:'Doc check'},{h:'Method'},{h:'Date paid'},{h:'Payment status'},{h:'Bank status'},{h:'Remarks'}],rows+foot);},
+  after:()=>{ document.querySelectorAll('#panel2 .chip').forEach(c=>c.addEventListener('click',()=>{apFilter=c.dataset.f; $('#panel2').innerHTML=t2[0].render(); t2[0].after();})); }},
+ {name:'Expense Tracker', render:()=>{
+   const rows = D.et.map(r=>`<tr><td>${fdate(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td><td class="mono">${r[4]}</td><td class="num">${P(r[5])}</td><td>${esc(r[6])}</td><td>${badge(r[7])}</td></tr>`).join('');
+   const foot = `<tr class="total"><td colspan="5">Total</td><td class="num">${P(sum(D.et.map(r=>r[5])))}</td><td colspan="2"></td></tr>`;
+   return `<p class="cap">Every invoice categorized and recorded in QuickBooks Online, with a review status to flag items that still need checking.</p>` +
+     table([{h:'Date'},{h:'Payee'},{h:'Description'},{h:'Category'},{h:'Receipt / invoice'},{h:'Amount (PHP)',num:1},{h:'Recorded in'},{h:'Review status'}],rows+foot);}},
+ {name:'Payment Reconciliation', render:()=>{
+   const rows = D.pr.map(r=>{const df=r[2]-r[3];return `<tr><td class="mono">${r[0]}</td><td>${esc(r[1])}</td><td class="num">${P(r[2])}</td><td class="num">${P(r[3])}</td><td class="num ${df?'neg':''}">${P(df)}</td><td>${badge(r[5])}</td><td class="wrapc">${esc(r[6])}</td></tr>`}).join('');
+   return `<p class="cap">Recorded payments matched against the bank statement. Anything that doesn't match is flagged with the action needed.</p>` +
+     table([{h:'Ref.'},{h:'Payee'},{h:'Recorded payment',num:1},{h:'Bank statement',num:1},{h:'Difference',num:1},{h:'Status'},{h:'Action / notes'}],rows);}}
+];
+tabs($('#tabs2'),$('#panel2'),t2);
+
+(function(){
+  const cats = {}; ap.forEach(r=>cats[r.cat]=(cats[r.cat]||0)+r.amt);
+  const ex = Object.entries(cats).sort((a,b)=>b[1]-a[1]), max = ex[0][1];
+  $('#bars2').innerHTML = ex.map(x=>`<div class="bar"><span>${esc(x[0])}</span><span class="t"><i style="width:${x[1]/max*100}%"></i></span><span class="n">${P(x[1]).replace('.00','')}</span></div>`).join('');
+  const fl = ap.filter(r=>r.pstat==='On Hold'||r.bank==='Pending Clearing'||r.pstat==='For Approval');
+  $('#flags2').innerHTML = fl.map(r=>`<div class="flag"><b>${r.ref}</b><span><strong>${esc(r.payee)}</strong> · ${P(r.amt).replace('.00','')}<br>${badge(r.pstat==='Paid'?r.bank:(r.doc!=='Complete'?r.doc:r.pstat))} ${esc(r.rem)}</span></div>`).join('');
+})();
+
+})();
+</script>
+
+<script>
+/* In-page "pages": #case-1 / #case-2 show a case study, anything else shows the main page */
+(function(){
+  const main = document.getElementById('mainView');
+  const views = {'case-1':document.getElementById('view-1'), 'case-2':document.getElementById('view-2')};
+  const baseTitle = document.title;
+  function route(){
+    const id = decodeURIComponent(location.hash.slice(1));
+    Object.values(views).forEach(v => v.hidden = true);
+    const v = views[id];
+    if(v){
+      main.hidden = true; v.hidden = false;
+      document.title = v.dataset.title + ' | Ma. Jennelyn Castillo Janoras';
+      window.scrollTo({top:0, behavior:'instant'});
+      return;
+    }
+    main.hidden = false; document.title = baseTitle;
+    const t = id && document.getElementById(id);
+    if(t) t.scrollIntoView({behavior:'instant'});
+  }
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
 
 </body>
 </html>
